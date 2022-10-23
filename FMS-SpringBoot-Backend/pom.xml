@@ -64,10 +64,15 @@
 			<artifactId>ojdbc6</artifactId>
 			<version>11.2.0.3</version>
 		</dependency> -->
-		<dependency>
-			<groupId>com.oracle</groupId>
+		<!--dependency>
+			<groupId>com.mysql</groupId>
 			<artifactId>ojdbc8</artifactId>
 			<version>12.2.0.1</version>
+		</dependency> -->
+		<dependency>
+			<groupId>org.hsqldb</groupId>
+			<artifactId>hsqldb</artifactId>
+			<version>2.7.1</version>
 		</dependency>
 		<dependency>
 		     <groupId>junit</groupId>
