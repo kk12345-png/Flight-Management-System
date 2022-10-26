@@ -5,7 +5,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,7 +21,6 @@ import com.org.model.Airport;
 import com.org.model.Flight;
 import com.org.service.AirportService;
 import com.org.service.AirportServiceImpl;
-@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("/airport")
 public class AirportController {

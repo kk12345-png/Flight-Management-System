@@ -4,7 +4,6 @@ import java.math.BigInteger;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,7 +19,6 @@ import com.org.exceptions.RecordNotFoundException;
 import com.org.model.Flight;
 import com.org.service.FlightService;
 import com.org.service.FlightServiceImpl;
-@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/flight")
 public class FlightController {
